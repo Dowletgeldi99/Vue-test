@@ -1,0 +1,49 @@
+.home {
+    width: 80%;
+    margin: 0 auto;
+
+    .df-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-block {
+        margin: 10px 0 50px;
+    }
+
+    .pagination-block {
+        margin: 20px 0;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+
+        &-dark {
+            background-color: #000;
+            color: #fff;
+
+            th {
+                padding: 10px 20px;
+                text-align: left;
+            }
+        }
+
+        .t-body {
+            tr {
+                border-bottom: 1px solid #ccc;
+                transition: .3s ease;
+                
+                td {
+                    padding: 10px 20px;
+                }
+                
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                    transition: .3s ease;
+                }
+            }
+        }
+    }
+}
