@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --env.production=false",
+    "start": "webpack-dev-server --env.production=false",
     "build": "webpack --env.production=true"
   },
   "author": "",
